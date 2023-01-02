@@ -90,23 +90,26 @@ header nav ul li a:hover {
 }
 
 .sec1 .container .text h1{
-    font-size: 30px;
     color: whitesmoke;
     font-size: 70px;
 }
 
 .sec1 .container .text p{
     font-size: 18px;
-    color: rgb(200, 200, 200);
+    color: whitesmoke;
 }
 
 .sec1 .container .text button{
     padding: 20px;
     margin-top: 30px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 20px;
     border: 0;
     font-size: 20px;
+}
+
+.sec1 .container .text button:hover{
+    cursor: pointer;
 }
 
 .sec1 .container .img{
@@ -177,8 +180,8 @@ header nav ul li a:hover {
 
 .proj-1 .cont h1{
     color: #ffffff;
-    font-size: 200px;
-    letter-spacing: 50px;
+    font-size: 180px;
+    letter-spacing: 40px;
     text-transform: uppercase;
 }
 
@@ -350,8 +353,8 @@ header nav ul li a:hover {
 
 .gal-1 .contain h1{
     color: #ffffff;
-    font-size: 200px;
-    letter-spacing: 50px;
+    font-size: 180px;
+    letter-spacing: 40px;
     text-transform: uppercase;
 }
 
@@ -424,8 +427,8 @@ header nav ul li a:hover {
 
 .kapcs-1 .k-contain h1{
     color: #ffffff;
-    font-size: 200px;
-    letter-spacing: 50px;
+    font-size: 180px;
+    letter-spacing: 40px;
     text-transform: uppercase;
 }
 
