@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Web</title>
+
+    <link rel="stylesheet" href="res/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <a id="img-a" href="index.html"><img src="media/logo.png" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="projekt.html">Projektek</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="kapcs-1">
+        <div class="k-contain" data-aos="fade">
+            <h1>Kapcsolat</h1>
+        </div>
+    </section>
+
+    <section class="kapcs-2">
+        <div class="kapcs-container">
+            <div id="text" data-aos="fade-right">
+                <h2>Írjon üzenetet!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolorum ex laboriosam repudiandae pariatur architecto aspernatur blanditiis debitis iusto veniam, dolorem rem dignissimos necessitatibus quidem, itaque, deserunt sint corporis vitae perferendis quasi sequi recusandae aperiam nulla eius. Autem sed ut praesentium et error consequatur veritatis vel ratione. Doloremque, asperiores minima quo, exercitationem eligendi labore sed dolorum soluta aut quidem neque perspiciatis quia. Ipsa fugit libero laboriosam quod repellendus maxime eligendi expedita repudiandae, tenetur et unde nisi, officiis fuga ullam exercitationem quia autem saepe, ipsum odio vel? Earum, debitis accusantium exercitationem et provident sequi similique quod odit dolorum sunt magni? Debitis.</p>
+            </div>
+
+            <div id="kitolt" data-aos="fade-left">
+                <form method="post" action="contact.php">
+                    <div>
+                        <label for="inName">Teljes Név:<span>*</span></label>
+                        <input type="text" name="name" placeholder="Arató András">
+                    </div>
+                    <div>
+                        <label for="inEmail">Email:<span>*</span></label>
+                        <input type="email" name="email" placeholder="aratoandras@host.com">
+                    </div>
+                    <div>
+                        <label for="InPhonenumber">Phone number: <span style="font-size: 14px;">(opcionális)</span></label>
+                        <input type="tel" name="phone_number" placeholder="0123456789">
+                    </div>
+                    <div>
+                        <label for="InMessage">Message:<span>*</span></label>
+                        <textarea type="text"  name="message" placeholder="Üzenetét ebbe a mezőbe írja."></textarea>
+                    </div>
+                    <div>
+                        <p><sup><span>*</span><span>kötelező</span></sup></p>
+                    </div>
+                    <div style="text-align:center;">
+                        <button name="sendMessage">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+</body>
+</html>

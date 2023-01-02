@@ -74,7 +74,6 @@ header nav ul li a:hover {
 .sec1{
     background-color: #354649;
     min-height: calc(100vh - 80px);
-    scroll-snap-align: start;
 }
 
 .sec1 .container{
@@ -84,7 +83,6 @@ header nav ul li a:hover {
     margin-right: 10%;
     align-items: center;
     justify-content: space-between;
-    scroll-snap-type: y mandatory;
 }
 
 .sec1 .container .text{
@@ -302,7 +300,7 @@ header nav ul li a:hover {
 }
 
 .proj-4 .vid-cont h2{
-    font-size: 100px;
+    font-size: 80px;
     color: #354649;
     padding: 50px 200px;
     margin-bottom: 5vh;
@@ -333,3 +331,238 @@ header nav ul li a:hover {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* Galeria section 1 */
+
+.gal-1{
+    height: calc(100vh - 80px);
+    background-color: #354649;
+}
+
+.gal-1 .contain{
+    height: calc(100vh - 80px);
+    line-height: calc(100vh - 80px);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gal-1 .contain h1{
+    color: #ffffff;
+    font-size: 200px;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+}
+
+/* Galeria section 2 */
+
+.gal-2{
+    height: 100vh;
+    background-color: #6C7A89;
+}
+
+.gal-2 .vid-cont{
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal-2 .vid-cont .gal-div{
+    padding: 10px;
+}
+
+.gal-2 .vid-cont .gal-div a img{
+    max-width: 60vh;
+    max-height: 80vh;
+}
+
+/* Galeria section 3 */
+
+.gal-3{
+    height: 100vh;
+    background-color: #E0E7E9;
+}
+
+.gal-3 .vid-cont{
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal-3 .vid-cont .gal-div{
+    padding: 10px;
+}
+
+.gal-3 .vid-cont .gal-div a img{
+    max-width: 100%;
+}
+
+/* Kapcsolat section 1 */
+
+.kapcs-1{
+    height: calc(100vh - 80px);
+    background-color: #354649;
+}
+
+.kapcs-1 .k-contain{
+    height: calc(100vh - 80px);
+    line-height: calc(100vh - 80px);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.kapcs-1 .k-contain h1{
+    color: #ffffff;
+    font-size: 200px;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+}
+
+/* Kapcsolat section 2 */
+
+.kapcs-2{
+    height: 100vh;
+    background-color: #6C7A89;
+    display: flex;
+    align-items: center;
+}
+
+.kapcs-container{
+    display: flex;
+    width: 70%;
+    margin: 0 15%;
+    justify-content: space-between;
+}
+
+#text{
+    width: 40%;
+}
+
+#text h2{
+    color: #283747;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#text p{
+    font-size: 18px;
+}
+
+#kitolt{
+    width: 40%;
+}
+
+#kitolt form
+{
+	padding: 3vh 2vh;
+    color: #283747;
+    margin: 2vh 0;
+}
+#kitolt form label
+{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+#kitolt form input,  
+#kitolt form textarea
+{
+    margin-bottom: 2vh;
+    width: 98%;
+    border: 2px solid #283747;
+    padding: 1.3vh 1%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+#kitolt form input::placeholder{
+    font-size: 16px;
+}
+
+#kitolt form textarea::placeholder{
+    font-size: 16px;
+}
+
+#kitolt form textarea
+{
+    height: 13vh;
+    resize: none;
+}
+#inName
+{
+    max-width: 32vh;
+}
+#inEmail
+{
+    max-width: 53vh;
+}
+#kitolt form button
+{
+    cursor: pointer;
+    padding: 1vh 3vh;
+    background: #354649;
+    color: #fff;
+    transition: background 0.3s;
+    border: 0;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#kitolt form button:hover
+{
+    background: #A3C6C4;
+    font-weight: bold;
+    color: #000000;
+}
+#kitolt form input[type=submit]:hover
+{
+    background: #c3beb8;
+}
+#kitolt p.success
+{
+    background: #d4edbb;
+    color: #6cab56;
+    border: 3px solid #beddb4;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#kitolt p.error
+{
+    background: #e7c3c3;
+    color: #ac5f5f;
+    border: 3px solid #df7e7e;
+    border-radius: 10px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#kitolt span{
+    color: #A3C6C4;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Kapcsolat section 3 */

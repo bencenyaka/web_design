@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Web</title>
+
+    <link rel="stylesheet" href="res/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <header>
+        <a id="img-a" href="index.html"><img src="media/logo.png" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="projekt.html">Projektek</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gal-1">
+        <div class="contain" data-aos="fade">
+            <h1>Galéria</h1>
+        </div>
+    </section>
+
+    <section class="gal-2">
+        <div class="vid-cont" data-aos="fade-right">
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal1.jpeg"><img src="media/gal1.jpeg" alt="Galéria Kép1"></a></div>
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal2.jpg"><img src="media/gal2.jpg" alt="Galéria Kép2"></a></div>
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal3.jpg"><img src="media/gal3.jpg" alt="Galéria Kép3"></a></div>
+        </div>
+    </section>
+
+    <section class="gal-3">
+        <div class="vid-cont" data-aos="fade-left">
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal4.jpg"><img src="media/gal4.jpg" alt="Galéria Kép4"></a></div>
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal5.jpg"><img src="media/gal5.jpg" alt="Galéria Kép5"></a></div>
+            <div class="gal-div"><a data-fancybox="gallery" href="media/gal6.jpg"><img src="media/gal6.jpg" alt="Galéria Kép6"></a></div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+</body>
+</html>
